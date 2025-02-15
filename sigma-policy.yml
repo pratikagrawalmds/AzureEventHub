@@ -1,0 +1,26 @@
+version: 1
+policies:
+  - id: IAC_POLICY:critical-severity
+    when:
+      severity: critical
+    result:
+      exit-code: 1
+      message: >
+        Failure:IAC Scan Critical Serverity Policy Match /
+        Defect from a critical severity checker caused this failure.
+  - id: IAC_POLICY:high-severity
+    when:
+      severity: high
+    result:
+      exit-code: 1
+      message: >
+        Failure:IAC Scan High Serverity Policy Match /
+        Defect from a high severity checker caused this failure.
+  - id: IAC_POLICY:medium-severity
+    when:
+      severity: medium
+    result:
+      exit-code: 1
+      message: >
+        Failure:IAC Scan Medium Serverity Policy Match /
+        Defect from a medium severity checker caused this failure.
