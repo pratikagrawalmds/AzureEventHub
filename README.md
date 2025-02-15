@@ -1,4 +1,4 @@
-# AzureEventHub
+# Terraform AzureEventHub
 	• Event Hub can handle massive data ingress, supporting millions of events per second. It is designed for high-throughput scenarios where you need to capture large-scale data streams in real-time.
 	• Event Hub allows you to collect data from real-time sources (e.g., IoT devices, logs, videos, websites, mobile apps etc.) and push it to real-time analytics services like Azure Stream Analytics, Apache Kafka, or Azure Databricks.
 	• Ingress (Incoming Data):
